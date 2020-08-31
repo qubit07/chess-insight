@@ -1,0 +1,24 @@
+{% extends 'main/basic.html' %}
+
+{% block content %}
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Rank</th>
+      <th scope="col">Name</th>
+      <th scope="col">Elo</th>
+      <th score="col">Skill</th>
+    </tr>
+  </thead>
+  <tbody>
+      {% for player in players %}
+      <tr class="clickable" onclick="window.location='{% url 'insight:player_details' player.id %}'">
+        <th scope="row"><a href="{% url 'insight:player_details' player.id %}">{{ player.rank }}</a></th>
+        <td>{{ player.name  }}</td>
+        <td>{{ player.elo  }}</td>
+        <td>{{ player.skill }}</td>
+      </tr>
+      {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

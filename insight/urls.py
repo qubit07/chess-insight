@@ -1,0 +1,7 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.players, name='players'),
+    path('<int:player_id>/', views.player_details, name='player_details')
+]
