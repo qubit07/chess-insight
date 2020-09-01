@@ -9,6 +9,6 @@ class Player(models.Model):
 
 
 class Game(models.Model):
-    player = models.ForeignKey(Player, on_delete=models.CASCADE)
+    players = models.ManyToManyField(Player)
     timestamp = models.DateTimeField()
     raw = models.TextField()

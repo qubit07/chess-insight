@@ -14,24 +14,33 @@
         <div class="collapse navbar-collapse" id="navbarColor03">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Games</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'insight:players' %}">Players</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Players</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'insight:games' %}">Games</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Analysis</a>
             </li>
           </ul>
           <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Sign up</button>
         </div>
       </nav>
-  {% block content %}
-  {% endblock %}
 
+      <main role="main" class="container">
+        <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-primary rounded shadow-sm">
+          <i class="fas fa-chess-knight"></i>
+          <div class="lh-100">
+            <h6 class="mb-0 text-white lh-100">Chess Insights - KI Predictions</h6>
+          </div>
+        </div>
+
+        {% block content %}
+        {% endblock %}
+      </main>
   </body>
 
   </html>

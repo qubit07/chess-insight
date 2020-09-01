@@ -1,0 +1,23 @@
+{% extends 'main/basic.html' %}
+
+{% block content %}
+<div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <div class="d-flex justify-content-between">
+          {% for player in players %}
+          <div>
+            <h4 class="my-0 font-weight-normal">{{ player.name }}</h4>
+          </div>
+          {% endfor %}
+          </div>
+            <small class="card-title pricing-card-title">Time {{ game.timestamp }}</small>
+        </div>
+
+      </div>
+      <div class="card-body">
+        <div class="badge badge-primary text-wrap" style="width: 6rem;">
+          {{ game.raw }}
+        </div>
+      </div>
+    </div>
+{% endblock %}

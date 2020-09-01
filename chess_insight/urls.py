@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('players/', include(('insight.urls', 'insight'), namespace='insight'))
+    path('insight/', include(('insight.urls', 'insight'), namespace='insight'))
 ]
