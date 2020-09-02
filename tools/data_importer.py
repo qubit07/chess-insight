@@ -33,7 +33,7 @@ def create_opening(conn, opening):
 
 def create_game(conn, game):
     sql = ''' INSERT INTO insight_game(elo_mean,elo_diff,result,timecontrol,timestamp,raw)
-              VALUES(?,?,?,?,?) '''
+              VALUES(?,?,?,?,?,?) '''
     cur = conn.cursor()
     cur.execute(sql, game)
     conn.commit()
@@ -42,8 +42,8 @@ def create_game(conn, game):
 if __name__ == '__main__':
     conn = create_connection(r"../db.sqlite3")
     user = ('easyjunker',)
-    user_id = create_user(conn, user)
-    print("create user: %s" % (user_id))
+    #user_id = create_user(conn, user)
+    #print("create user: %s" % (user_id))
 
     eco_importer = EcoImporter()
     ecos = eco_importer.get_ecos('resources/chess_eco_codes.json')
@@ -54,3 +54,4 @@ if __name__ == '__main__':
 
     importer = GameImporter()
     games = importer.get_games('resources/games.pgn')
+    print("create games: %s" % (len(games)))
