@@ -1,14 +1,26 @@
 from django.db import models
 
-class Player(models.Model):
+class User(models.Model):
     name = models.CharField(max_length=40)
-    elo = models.IntegerField(default=0);
-    rank = models.IntegerField(default=0);
-    skill = models.CharField(max_length=40, default='Peon')
 
-
+class Opening(models.Model):
+    name = models.CharField(max_length=40)
+    eco = models.CharField(max_length=3)
+    moves = models.TextField()
 
 class Game(models.Model):
-    players = models.ManyToManyField(Player)
+    elo_mean = models.IntegerField(default=0)
+    elo_diff = models.IntegerField(default=0)
+    result = models.CharField(max_length=40)
+    opening = models.ForeignKey(Opening, on_delete=models.CASCADE)
+    timecontrol = models.CharField(max_length=40)
     timestamp = models.DateTimeField()
     raw = models.TextField()
+
+class Analyse(models.Model):
+    game = models.ForeignKey(Game, on_delete=models.CASCADE)
+    turnover_move = models.IntegerField(default=0)
+    turnover_evaluation = models.IntegerField(default=0)
+    unbalance_material = models.IntegerField(default=0)
+    unbalance_officers = models.IntegerField(default=0)
+    unbalance_exchange = models.IntegerField(default=0)
