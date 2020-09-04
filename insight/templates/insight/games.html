@@ -5,14 +5,20 @@
     <thead>
       <tr>
         <th scope="col">#</th>
-        <th scope="col">Raw</th>
+        <th scope="col">Eco Code</th>
+        <th scope="col">Name</th>
+        <th scope="col">Moves</th>
+        <th scope="col">Timestamp </th>
       </tr>
     </thead>
     <tbody>
       {% for game in games %}
       <tr>
         <th scope="row">{{game.id}}</th>
+        <td>{{game.opening.eco}}</td>
+        <td>{{game.opening.name}}</td>
         <td>{{game.raw}}</td>
+        <td>{{game.timestamp}}</td>
       </tr>
       {% endfor %}
     </tbody>

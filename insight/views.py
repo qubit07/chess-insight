@@ -2,7 +2,13 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, Http404
 from django.template import RequestContext, loader
 from django.core.paginator import Paginator
-from .models import User, Game, Opening
+from .models import User, Game, Opening, OpeningSystem
+
+def dashboard(request):
+    context = {
+        'opening_systems': OpeningSystem.objects.all().order_by("name"),
+    }
+    return render(request, 'insight/dashboard.html', context)
 
 
 def players(request):
@@ -18,6 +24,21 @@ def player_details(request, player_id):
     }
     return render(request, 'insight/player_details.html', context)
 
+def opening_systems(request):
+    context = {
+        'opening_systems': OpeningSystem.objects.all().order_by("name"),
+    }
+    return render(request, 'insight/opening_systems.html', context)
+
+def opening_system_details(request, opening_system_id):
+    opening_system = get_object_or_404(OpeningSystem, id=opening_system_id)
+    openings = Opening.objects.filter(opening_system = opening_system_id)
+    context = {
+        'opening_system': opening_system,
+        'openings' : openings
+    }
+    return render(request, 'insight/opening_system_details.html', context)
+
 
 def games(request):
     context = {
@@ -29,7 +50,6 @@ def game_details(request, game_id):
     game = get_object_or_404(Game, id=game_id)
     context = {
         'game': game,
-        'players' : game.players.all()
     }
     return render(request, 'insight/game_details.html', context)
 
@@ -44,3 +64,10 @@ def openings(request):
         'page_obj': page_obj,
     }
     return render(request, 'insight/openings.html', context)
+
+def opening_details(request, opening_id):
+    opening = get_object_or_404(Opening, id=opening_id)
+    context = {
+        'opening' : opening
+    }
+    return render(request, 'insight/opening_details.html', context)

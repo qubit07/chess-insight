@@ -3,9 +3,13 @@ from django.db import models
 class User(models.Model):
     name = models.CharField(max_length=40)
 
+class OpeningSystem(models.Model):
+    name = models.CharField(max_length=40)
+
 class Opening(models.Model):
     name = models.CharField(max_length=40)
     eco = models.CharField(max_length=3)
+    opening_system = models.ForeignKey(OpeningSystem, on_delete=models.CASCADE)
     moves = models.TextField()
 
 class Game(models.Model):

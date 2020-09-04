@@ -60,7 +60,7 @@
 		"moves": "1 c4 c6"
 	},
 	{
-		"name": "English with b3",
+		"name": "English, with b3",
 		"eco": "A12",
 		"moves": "1 c4 c6 2 Nf3 d5 3 b3"
 	},
@@ -205,7 +205,7 @@
 		"moves": "1 d4"
 	},
 	{
-		"name": "Queen's Pawn Game (with ...d6)",
+		"name": "Queen's Pawn Game, with ...d6",
 		"eco": "A41",
 		"moves": "1 d4 d6"
 	},
@@ -220,7 +220,7 @@
 		"moves": "1 d4 c5"
 	},
 	{
-		"name": "Old Benoni Defense",
+		"name": "Old Benoni",
 		"eco": "A44",
 		"moves": "1 d4 c5 2 d5 e5"
 	},
@@ -280,27 +280,27 @@
 		"moves": "1 d4 Nf6 2 c4 d6 3 Nc3 e5 4 Nf3 Nbd7 5 e4"
 	},
 	{
-		"name": "Benoni Defense",
+		"name": "Benoni",
 		"eco": "A56",
 		"moves": "1 d4 Nf6 2 c4 c5"
 	},
 	{
-		"name": "Benko Gambit",
+		"name": "Benoni, Benko Gambit",
 		"eco": "A57",
 		"moves": "1 d4 Nf6 2 c4 c5 3 d5 b5"
 	},
 	{
-		"name": "Benko Gambit",
+		"name": "Benoni, Benko Gambit",
 		"eco": "A58",
 		"moves": "1 d4 Nf6 2 c4 c5 3 d5 b5 4 cxb5 a6 5 bxa6"
 	},
 	{
-		"name": "Benko Gambit",
+		"name": "Benoni, Benko Gambit",
 		"eco": "A59",
 		"moves": "1 d4 Nf6 2 c4 c5 3 d5 b5 4 cxb5 a6 5 bxa6 Bxa6 6 Nc3 d6 7 e4"
 	},
 	{
-		"name": "Benoni Defense",
+		"name": "Benoni",
 		"eco": "A60",
 		"moves": "1 d4 Nf6 2 c4 c5 3 d5 e6"
 	},
@@ -455,12 +455,12 @@
 		"moves": "1 d4 f5 2 c4 Nf6 3 g3 e6 4 Bg2"
 	},
 	{
-		"name": "Dutch Defense",
+		"name": "Dutch, Classical",
 		"eco": "A91",
 		"moves": "1 d4 f5 2 c4 Nf6 3 g3 e6 4 Bg2 Be7"
 	},
 	{
-		"name": "Dutch",
+		"name": "Dutch, Classical Main",
 		"eco": "A92",
 		"moves": "1 d4 f5 2 c4 Nf6 3 g3 e6 4 Bg2 Be7 5 Nf3 O-O"
 	},
@@ -560,7 +560,7 @@
 		"moves": "1 e4 c6 2 Nc3 d5 3 Nf3 Bg4"
 	},
 	{
-		"name": "Caro-Kann Defense",
+		"name": "Caro-Kann",
 		"eco": "B12",
 		"moves": "1 e4 c6 2 d4"
 	},
@@ -1000,7 +1000,7 @@
 		"moves": "1 e4 c5 2 Nf3 d6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 a6 6 Bg5 e6 7 f4 Be7 8 Qf3 Qc7 9 O-O-O Nbd7"
 	},
 	{
-		"name": "French Defense",
+		"name": "French",
 		"eco": "C00",
 		"moves": "1 e4 e6"
 	},
@@ -1135,67 +1135,67 @@
 		"moves": "1 e4 e5 2 Nc3 Nf6"
 	},
 	{
-		"name": "Vienna Game",
+		"name": "Vienna",
 		"eco": "C27",
 		"moves": "1 e4 e5 2 Nc3 Nf6 3 Bc4 Nxe4"
 	},
 	{
-		"name": "Vienna Game",
+		"name": "Vienna",
 		"eco": "C28",
 		"moves": "1 e4 e5 2 Nc3 Nf6 3 Bc4 Nc6"
 	},
 	{
-		"name": "Vienna Gambit",
+		"name": "Vienna, Gambit",
 		"eco": "C29",
 		"moves": "1 e4 e5 2 Nc3 Nf6 3 f4"
 	},
 	{
-		"name": "King's Gambit Declined",
+		"name": "King's Gambit",
 		"eco": "C30",
 		"moves": "1 e4 e5 2 f4"
 	},
 	{
-		"name": "King's Gambit Declined, Falkbeer Counter Gambit",
+		"name": "King's Gambit, Falkbeer Counter Gambit",
 		"eco": "C31",
 		"moves": "1 e4 e5 2 f4 d5"
 	},
 	{
-		"name": "King's Gambit Declined, Falkbeer Counter Gambit",
+		"name": "King's Gambit, Falkbeer Counter Gambit",
 		"eco": "C32",
 		"moves": "1 e4 e5 2 f4 d5 3 exd5 e4 4 d3 Nf6"
 	},
 	{
-		"name": "King's Gambit Accepted",
+		"name": "King's Gambit, Accepted",
 		"eco": "C33",
 		"moves": "1 e4 e5 2 f4 exf4"
 	},
 	{
-		"name": "King's Gambit Accepted",
+		"name": "King's Gambit, Accepted",
 		"eco": "C34",
 		"moves": "1 e4 e5 2 f4 exf4 3 Nf3"
 	},
 	{
-		"name": "King's Gambit Accepted, Cunningham",
+		"name": "King's Gambit, Accepted, Cunningham",
 		"eco": "C35",
 		"moves": "1 e4 e5 2 f4 exf4 3 Nf3 Be7"
 	},
 	{
-		"name": "King's Gambit Accepted, Abbazia Defense",
+		"name": "King's Gambit, Accepted, Abbazia Defense",
 		"eco": "C36",
 		"moves": "1 e4 e5 2 f4 exf4 3 Nf3 d5"
 	},
 	{
-		"name": "King's Gambit Accepted",
+		"name": "King's Gambit, Accepted",
 		"eco": "C37",
 		"moves": "1 e4 e5 2 f4 exf4 3 Nf3 g5 4 Nc3"
 	},
 	{
-		"name": "King's Gambit Accepted",
+		"name": "King's Gambit, Accepted",
 		"eco": "C38",
 		"moves": "1 e4 e5 2 f4 exf4 3 Nf3 g5 4 Bc4 Bg7"
 	},
 	{
-		"name": "King's Gambit Accepted",
+		"name": "King's Gambit, Accepted",
 		"eco": "C39",
 		"moves": "1 e4 e5 2 f4 exf4 3 Nf3 g5 4 h4"
 	},
@@ -1210,7 +1210,7 @@
 		"moves": "1 e4 e5 2 Nf3 d6"
 	},
 	{
-		"name": "Petrov Defense",
+		"name": "Petrov",
 		"eco": "C42",
 		"moves": "1 e4 e5 2 Nf3 Nf6"
 	},
@@ -1250,52 +1250,52 @@
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Nc3 Nf6 4 Bb5 Bb4"
 	},
 	{
-		"name": "Giuoco Piano",
+		"name": "Italian",
 		"eco": "C50",
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5"
 	},
 	{
-		"name": "Evans Gambit",
+		"name": "Italian, Evans Gambit",
 		"eco": "C51",
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5 4 b4"
 	},
 	{
-		"name": "Evans Gambit",
+		"name": "Italian, Evans Gambit",
 		"eco": "C52",
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5 4 b4 Bxb4 5 c3 Ba5"
 	},
 	{
-		"name": "Giuoco Piano",
+		"name": "Italian, Giuoco Piano",
 		"eco": "C53",
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5 4 c3"
 	},
 	{
-		"name": "Giuoco Piano",
+		"name": "Italian, Giuoco Piano",
 		"eco": "C54",
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5 4 c3 Nf6 5 d4 exd4 6 cxd4"
 	},
 	{
-		"name": "Two Knights Defense",
+		"name": "Italian, Two Knights",
 		"eco": "C55",
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Bc4 Nf6"
 	},
 	{
-		"name": "Two Knights",
+		"name": "Italian, Two Knights",
 		"eco": "C56",
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Bc4 Nf6 4 d4 exd4 5 O-O Nxe4"
 	},
 	{
-		"name": "Two Knights",
+		"name": "Italian, Two Knights",
 		"eco": "C57",
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Bc4 Nf6 4 Ng5"
 	},
 	{
-		"name": "Two Knights",
+		"name": "Italian, Two Knights",
 		"eco": "C58",
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Bc4 Nf6 4 Ng5 d5 5 exd5 Na5"
 	},
 	{
-		"name": "Two Knights",
+		"name": "Italian, Two Knights",
 		"eco": "C59",
 		"moves": "1 e4 e5 2 Nf3 Nc6 3 Bc4 Nf6 4 Ng5 d5 5 exd5 Na5 6 Bb5+ c6 7 dxc6 bxc6 8 Be2 h6"
 	},
@@ -1515,7 +1515,7 @@
 		"moves": "1 d4 d5 2 Nf3"
 	},
 	{
-		"name": "Torre Attack (Tartakower Variation)",
+		"name": "Torre Attack, Tartakower Variation",
 		"eco": "D03",
 		"moves": "1 d4 d5 2 Nf3 Nf6 3 Bg5"
 	},
@@ -1530,72 +1530,72 @@
 		"moves": "1 d4 d5 2 Nf3 Nf6 3 e3 e6"
 	},
 	{
-		"name": "Queen's Gambit Declined",
+		"name": "Queen's Gambit",
 		"eco": "D06",
 		"moves": "1 d4 d5 2 c4"
 	},
 	{
-		"name": "Queen's Gambit Declined, Chigorin Defense",
+		"name": "Queen's Gambit, Chigorin Defense",
 		"eco": "D07",
 		"moves": "1 d4 d5 2 c4 Nc6"
 	},
 	{
-		"name": "Queen's Gambit Declined, Albin Counter Gambit",
+		"name": "Queen's Gambit, Albin Counter Gambit",
 		"eco": "D08",
 		"moves": "1 d4 d5 2 c4 e5"
 	},
 	{
-		"name": "Queen's Gambit Declined, Albin Counter Gambit, 5.g3",
+		"name": "Queen's Gambit, Albin Counter Gambit, 5.g3",
 		"eco": "D09",
 		"moves": "1 d4 d5 2 c4 e5 3 dxe5 d4 4 Nf3 Nc6 5 g3"
 	},
 	{
-		"name": "Queen's Gambit Declined Slav",
+		"name": "Slav",
 		"eco": "D10",
 		"moves": "1 d4 d5 2 c4 c6"
 	},
 	{
-		"name": "Queen's Gambit Declined Slav",
+		"name": "Slav",
 		"eco": "D11",
 		"moves": "1 d4 d5 2 c4 c6 3 Nf3"
 	},
 	{
-		"name": "Queen's Gambit Declined Slav",
+		"name": "Slav",
 		"eco": "D12",
 		"moves": "1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 e3 Bf5"
 	},
 	{
-		"name": "Queen's Gambit Declined Slav, Exchange Variation",
+		"name": "Slav, Exchange Variation",
 		"eco": "D13",
 		"moves": "1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 cxd5 cxd5"
 	},
 	{
-		"name": "Queen's Gambit Declined Slav, Exchange Variation",
+		"name": "Slav, Exchange Variation",
 		"eco": "D14",
 		"moves": "1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 cxd5 cxd5 5 Nc3 Nc6 6 Bf4 Bf5"
 	},
 	{
-		"name": "Queen's Gambit Declined Slav",
+		"name": "Slav",
 		"eco": "D15",
 		"moves": "1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 Nc3"
 	},
 	{
-		"name": "Queen's Gambit Declined Slav",
+		"name": "Slav",
 		"eco": "D16",
 		"moves": "1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 Nc3 dxc4 5 a4"
 	},
 	{
-		"name": "Queen's Gambit Declined Slav",
+		"name": "Slav",
 		"eco": "D17",
 		"moves": "1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 Nc3 dxc4 5 a4 Bf5"
 	},
 	{
-		"name": "Queen's Gambit Declined Slav, Dutch",
+		"name": "Slav, Dutch",
 		"eco": "D18",
 		"moves": "1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 Nc3 dxc4 5 a4 Bf5 6 e3"
 	},
 	{
-		"name": "Queen's Gambit Declined Slav, Dutch",
+		"name": "Slav, Dutch",
 		"eco": "D19",
 		"moves": "1 d4 d5 2 c4 c6 3 Nf3 Nf6 4 Nc3 dxc4 5 a4 Bf5 6 e3 e6 7 Bxc4 Bb4 8 O-O O-O 9 Qe2"
 	},
@@ -1715,37 +1715,37 @@
 		"moves": "1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c5 5 cxd5 Nxd5 6 e3 Nc6 7 Bd3"
 	},
 	{
-		"name": "Queen's Gambit Declined Semi-Slav",
+		"name": "Semi-Slav",
 		"eco": "D43",
 		"moves": "1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6"
 	},
 	{
-		"name": "Queen's Gambit Declined Semi-Slav",
+		"name": "Semi-Slav",
 		"eco": "D44",
 		"moves": "1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6 5 Bg5 dxc4"
 	},
 	{
-		"name": "Queen's Gambit Declined Semi-Slav",
+		"name": "Semi-Slav",
 		"eco": "D45",
 		"moves": "1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6 5 e3"
 	},
 	{
-		"name": "Queen's Gambit Declined Semi-Slav",
+		"name": "Semi-Slav",
 		"eco": "D46",
 		"moves": "1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6 5 e3 Nbd7 6 Bd3"
 	},
 	{
-		"name": "Queen's Gambit Declined Semi-Slav",
+		"name": "Semi-Slav",
 		"eco": "D47",
 		"moves": "1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6 5 e3 Nbd7 6 Bd3 dxc4 7 Bxc4"
 	},
 	{
-		"name": "Queen's Gambit Declined Semi-Slav, Meran",
+		"name": "Semi-Slav, Meran",
 		"eco": "D48",
 		"moves": "1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6 5 e3 Nbd7 6 Bd3 dxc4 7 Bxc4 b5 8 Bd3 a6"
 	},
 	{
-		"name": "Queen's Gambit Declined Semi-Slav, Meran",
+		"name": "Semi-Slav, Meran",
 		"eco": "D49",
 		"moves": "1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Nf3 c6 5 e3 Nbd7 6 Bd3 dxc4 7 Bxc4 b5 8 Bd3 a6 9 e4 c5 10 e5 cxd4 11 Nxb5"
 	},
@@ -1850,12 +1850,12 @@
 		"moves": "1 d4 d5 2 c4 e6 3 Nc3 Nf6 4 Bg5 Be7 5 e3 O-O 6 Nf3 Nbd7 7 Rc1 c6 8 Bd3 dxc4"
 	},
 	{
-		"name": "Neo-Grunfeld Defense",
+		"name": "Neo-Grunfeld",
 		"eco": "D70",
 		"moves": "1 d4 Nf6 2 c4 g6 3 f3 d5"
 	},
 	{
-		"name": "Neo-Grunfeld",
+		"name": "Neo-Grunfeld, Main",
 		"eco": "D71",
 		"moves": "1 d4 Nf6 2 c4 g6 3 g3 d5"
 	},
@@ -1995,7 +1995,7 @@
 		"moves": "1 d4 Nf6 2 c4 g6 3 Nc3 d5 4 Nf3 Bg7 5 Qb3 dxc4 6 Qxc4 O-O 7 e4 Bg4"
 	},
 	{
-		"name": "Grunfeld Defense, Smyslov",
+		"name": "Grunfeld, Smyslov",
 		"eco": "D99",
 		"moves": "1 d4 Nf6 2 c4 g6 3 Nc3 d5 4 Nf3 Bg7 5 Qb3 dxc4 6 Qxc4 O-O 7 e4 Bg4 8 Be3"
 	},
@@ -2300,7 +2300,7 @@
 		"moves": "1 d4 Nf6 2 c4 e6 3 Nc3 Bb4 4 e3 O-O 5 Nf3 d5 6 Bd3 c5 7 O-O Nc6 8 a3 Bxc3 9 bxc3 dxc4 10 Bxc4"
 	},
 	{
-		"name": "King's Indian Defense",
+		"name": "King's Indian",
 		"eco": "E60",
 		"moves": "1 d4 Nf6 2 c4 g6"
 	},
