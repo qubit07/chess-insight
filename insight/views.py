@@ -55,7 +55,7 @@ def game_details(request, game_id):
 
 def openings(request):
     opening_list = Opening.objects.all()
-    paginator = Paginator(opening_list, 25)
+    paginator = Paginator(opening_list, 10)
 
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
