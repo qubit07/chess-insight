@@ -18,7 +18,7 @@ def create_user(conn, user):
     conn.commit()
     return cur.lastrowid
 
-def main:
+def main():
     conn = create_connection(r"../db.sqlite3")
     user = ('easyjunker',)
     user_id = create_user(conn, user)
